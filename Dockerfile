@@ -23,5 +23,9 @@ RUN apk del .build-deps
 
 COPY init.sh /
 
+RUN chmod +x /init.sh
+
+RUN ls -l
+
 ENTRYPOINT ["/init.sh"]
 

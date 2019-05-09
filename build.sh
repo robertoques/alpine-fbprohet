@@ -2,7 +2,7 @@
 
 USER=diazr
 IMAGE=alpine-fbprophet
-TAG=test-2
+TAG=test-4
 
 sudo docker build --rm --force-rm --compress -f Dockerfile -t ${USER}/${IMAGE}:${TAG} --no-cache --pull .
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 START_TIME=`date +%s`
 echo $START_TIME
